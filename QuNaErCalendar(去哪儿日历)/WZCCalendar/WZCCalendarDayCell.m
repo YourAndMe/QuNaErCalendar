@@ -1,0 +1,135 @@
+//
+//  WZCCalendarDayCell.m
+//  QuNaErCalendar(去哪儿日历)
+//
+//  Created by wziMAC on 16/10/12.
+//  Copyright © 2016年 WZC. All rights reserved.
+//
+
+#import "WZCCalendarDayCell.h"
+
+@implementation WZCCalendarDayCell
+
+- (id)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        [self initView];
+    }
+    return self;
+}
+
+- (void)initView{
+    
+    //选中时显示的图片
+    self.imgview = [[UIImageView alloc]initWithFrame:CGRectMake(5, 15, self.bounds.size.width-10, self.bounds.size.width-10)];
+    self.imgview.image = [UIImage imageNamed:@"chack1.png"];
+    [self addSubview:self.imgview];
+    
+    //日期
+    day_lab = [[UILabel alloc]initWithFrame:CGRectMake(0, 15, self.bounds.size.width, self.bounds.size.width-10)];
+    day_lab.textAlignment = NSTextAlignmentCenter;
+    day_lab.font = [UIFont systemFontOfSize:14];
+    [self addSubview:day_lab];
+    
+    //农历
+    day_title = [[UILabel alloc]initWithFrame:CGRectMake(0, self.bounds.size.height-15, self.bounds.size.width, 13)];
+    day_title.textColor = [UIColor lightGrayColor];
+    day_title.font = [UIFont boldSystemFontOfSize:10];
+    day_title.textAlignment = NSTextAlignmentCenter;
+    [self addSubview:day_title];
+    
+    
+}
+
+- (void)setModel:(WZCCalendarDayModel *)model
+{
+    
+    
+    switch (model.style) {
+        case CellDayTypeEmpty://不显示
+            [self hidden_YES];
+            break;
+            
+        case CellDayTypePast://过去的日期
+            [self hidden_NO];
+            
+            if (model.holiday) {
+                day_lab.text = model.holiday;
+            }else{
+                day_lab.text = [NSString stringWithFormat:@"%d",model.day];
+            }
+            
+            day_lab.textColor = [UIColor lightGrayColor];
+            day_title.text = model.Chinese_calendar;
+            self.imgview.hidden = YES;
+            break;
+            
+        case CellDayTypeFutur://将来的日期
+            [self hidden_NO];
+            
+            if (model.holiday) {
+                day_lab.text = model.holiday;
+                day_lab.textColor = [UIColor orangeColor];
+            }else{
+                day_lab.text = [NSString stringWithFormat:@"%d",model.day];
+                day_lab.textColor = COLOR_THEME;
+            }
+            
+            day_title.text = model.Chinese_calendar;
+            self.imgview.hidden = YES;
+            break;
+            
+        case CellDayTypeWeek://周末
+            [self hidden_NO];
+            
+            if (model.holiday) {
+                day_lab.text = model.holiday;
+                day_lab.textColor = [UIColor orangeColor];
+            }else{
+                day_lab.text = [NSString stringWithFormat:@"%d",model.day];
+                day_lab.textColor = COLOR_THEME1;
+            }
+            
+            day_title.text = model.Chinese_calendar;
+            self.imgview.hidden = YES;
+            break;
+            
+        case CellDayTypeClick://被点击的日期
+            [self hidden_NO];
+            day_lab.text = [NSString stringWithFormat:@"%d",model.day];
+            day_lab.textColor = [UIColor whiteColor];
+            day_title.text = model.Chinese_calendar;
+            self.imgview.hidden = NO;
+            if (self.imageTag == 1) {
+                self.imgview.image = [UIImage imageNamed:@"chack2.png"];
+            }else{
+                self.imgview.image = [UIImage imageNamed:@"chack1.png"];
+            }
+            
+            break;
+            
+        default:
+            
+            break;
+    }
+    
+    
+}
+
+- (void)hidden_YES{
+    
+    day_lab.hidden = YES;
+    day_title.hidden = YES;
+    self.imgview.hidden = YES;
+    
+}
+
+- (void)hidden_NO{
+    
+    day_lab.hidden = NO;
+    day_title.hidden = NO;
+    
+}
+
+@end

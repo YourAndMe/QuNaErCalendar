@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>QuNaErCalendar(去哪儿日历).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>175775EE1DAE53170087E0FB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>175776071DAE53170087E0FB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>175776121DAE53170087E0FB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

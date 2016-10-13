@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		175775F41DAE53170087E0FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 175775F31DAE53170087E0FB /* main.m */; };
+		175775F71DAE53170087E0FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 175775F61DAE53170087E0FB /* AppDelegate.m */; };
+		175775FD1DAE53170087E0FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 175775FB1DAE53170087E0FB /* Main.storyboard */; };
+		175775FF1DAE53170087E0FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 175775FE1DAE53170087E0FB /* Assets.xcassets */; };
+		175776021DAE53170087E0FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 175776001DAE53170087E0FB /* LaunchScreen.storyboard */; };
+		1757760D1DAE53170087E0FB /* QuNaErCalendar_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1757760C1DAE53170087E0FB /* QuNaErCalendar_______Tests.m */; };
+		175776181DAE53170087E0FB /* QuNaErCalendar_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 175776171DAE53170087E0FB /* QuNaErCalendar_______UITests.m */; };
+		175776291DAE53530087E0FB /* chack1.png in Resources */ = {isa = PBXBuildFile; fileRef = 175776271DAE53530087E0FB /* chack1.png */; };
+		1757762A1DAE53530087E0FB /* chack1.png in Resources */ = {isa = PBXBuildFile; fileRef = 175776271DAE53530087E0FB /* chack1.png */; };
+		1757762B1DAE53530087E0FB /* chack2.png in Resources */ = {isa = PBXBuildFile; fileRef = 175776281DAE53530087E0FB /* chack2.png */; };
+		1757762C1DAE53530087E0FB /* chack2.png in Resources */ = {isa = PBXBuildFile; fileRef = 175776281DAE53530087E0FB /* chack2.png */; };
+		1757762F1DAE536B0087E0FB /* NSDate+WZCCalendarLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 1757762E1DAE536B0087E0FB /* NSDate+WZCCalendarLogic.m */; };
+		175776301DAE536B0087E0FB /* NSDate+WZCCalendarLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 1757762E1DAE536B0087E0FB /* NSDate+WZCCalendarLogic.m */; };
+		175776331DAE54750087E0FB /* WZCCalendarDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 175776321DAE54750087E0FB /* WZCCalendarDayCell.m */; };
+		175776341DAE54750087E0FB /* WZCCalendarDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 175776321DAE54750087E0FB /* WZCCalendarDayCell.m */; };
+		175776371DAE54C00087E0FB /* WZCCalendarDayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 175776361DAE54C00087E0FB /* WZCCalendarDayModel.m */; };
+		175776381DAE54C00087E0FB /* WZCCalendarDayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 175776361DAE54C00087E0FB /* WZCCalendarDayModel.m */; };
+		1757763B1DAE55140087E0FB /* WZCCalendarLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 1757763A1DAE55140087E0FB /* WZCCalendarLogic.m */; };
+		1757763C1DAE55140087E0FB /* WZCCalendarLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 1757763A1DAE55140087E0FB /* WZCCalendarLogic.m */; };
+		1757763F1DAE55720087E0FB /* WZCCalendarMonthCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1757763E1DAE55720087E0FB /* WZCCalendarMonthCollectionViewLayout.m */; };
+		175776401DAE55720087E0FB /* WZCCalendarMonthCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1757763E1DAE55720087E0FB /* WZCCalendarMonthCollectionViewLayout.m */; };
+		175776431DAE55A60087E0FB /* WZCCalendarMonthHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 175776421DAE55A60087E0FB /* WZCCalendarMonthHeaderView.m */; };
+		175776441DAE55A60087E0FB /* WZCCalendarMonthHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 175776421DAE55A60087E0FB /* WZCCalendarMonthHeaderView.m */; };
+		175776481DAE56A90087E0FB /* WZCMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 175776471DAE56A90087E0FB /* WZCMainViewController.m */; };
+		175776491DAE56A90087E0FB /* WZCMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 175776471DAE56A90087E0FB /* WZCMainViewController.m */; };
+		1757764C1DAE57370087E0FB /* StartAndEndViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1757764B1DAE57370087E0FB /* StartAndEndViewController.m */; };
+		1757764D1DAE57370087E0FB /* StartAndEndViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1757764B1DAE57370087E0FB /* StartAndEndViewController.m */; };
+		175776501DAE57910087E0FB /* NoUseDateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1757764F1DAE57910087E0FB /* NoUseDateViewController.m */; };
+		175776511DAE57910087E0FB /* NoUseDateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1757764F1DAE57910087E0FB /* NoUseDateViewController.m */; };
+		1757765E1DAE58140087E0FB /* CustomViewAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 175776541DAE58140087E0FB /* CustomViewAnimation.m */; };
+		1757765F1DAE58140087E0FB /* CustomViewAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 175776541DAE58140087E0FB /* CustomViewAnimation.m */; };
+		175776601DAE58140087E0FB /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 175776561DAE58140087E0FB /* MBProgressHUD+Add.m */; };
+		175776611DAE58140087E0FB /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 175776561DAE58140087E0FB /* MBProgressHUD+Add.m */; };
+		175776621DAE58140087E0FB /* MBProgressHUD+XZ.m in Sources */ = {isa = PBXBuildFile; fileRef = 175776581DAE58140087E0FB /* MBProgressHUD+XZ.m */; };
+		175776631DAE58140087E0FB /* MBProgressHUD+XZ.m in Sources */ = {isa = PBXBuildFile; fileRef = 175776581DAE58140087E0FB /* MBProgressHUD+XZ.m */; };
+		175776641DAE58140087E0FB /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 175776591DAE58140087E0FB /* MBProgressHUD.bundle */; };
+		175776651DAE58140087E0FB /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 175776591DAE58140087E0FB /* MBProgressHUD.bundle */; };
+		175776661DAE58140087E0FB /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1757765B1DAE58140087E0FB /* MBProgressHUD.m */; };
+		175776671DAE58140087E0FB /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1757765B1DAE58140087E0FB /* MBProgressHUD.m */; };
+		175776681DAE58140087E0FB /* ShowHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1757765D1DAE58140087E0FB /* ShowHUD.m */; };
+		175776691DAE58140087E0FB /* ShowHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1757765D1DAE58140087E0FB /* ShowHUD.m */; };
+		1757766C1DAE5A750087E0FB /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 1757766B1DAE5A750087E0FB /* UIViewExt.m */; };
+		1757766D1DAE5A750087E0FB /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 1757766B1DAE5A750087E0FB /* UIViewExt.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		175776091DAE53170087E0FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 175775E71DAE53170087E0FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 175775EE1DAE53170087E0FB;
+			remoteInfo = "QuNaErCalendar(去哪儿日历)";
+		};
+		175776141DAE53170087E0FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 175775E71DAE53170087E0FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 175775EE1DAE53170087E0FB;
+			remoteInfo = "QuNaErCalendar(去哪儿日历)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		175775EF1DAE53170087E0FB /* QuNaErCalendar(去哪儿日历).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QuNaErCalendar(去哪儿日历).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		175775F31DAE53170087E0FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		175775F51DAE53170087E0FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		175775F61DAE53170087E0FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		175775FC1DAE53170087E0FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		175775FE1DAE53170087E0FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		175776011DAE53170087E0FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		175776031DAE53170087E0FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		175776081DAE53170087E0FB /* QuNaErCalendar(去哪儿日历)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QuNaErCalendar(去哪儿日历)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1757760C1DAE53170087E0FB /* QuNaErCalendar_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "QuNaErCalendar_______Tests.m"; sourceTree = "<group>"; };
+		1757760E1DAE53170087E0FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		175776131DAE53170087E0FB /* QuNaErCalendar(去哪儿日历)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QuNaErCalendar(去哪儿日历)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		175776171DAE53170087E0FB /* QuNaErCalendar_______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "QuNaErCalendar_______UITests.m"; sourceTree = "<group>"; };
+		175776191DAE53170087E0FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		175776271DAE53530087E0FB /* chack1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chack1.png; sourceTree = "<group>"; };
+		175776281DAE53530087E0FB /* chack2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chack2.png; sourceTree = "<group>"; };
+		1757762D1DAE536B0087E0FB /* NSDate+WZCCalendarLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+WZCCalendarLogic.h"; sourceTree = "<group>"; };
+		1757762E1DAE536B0087E0FB /* NSDate+WZCCalendarLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WZCCalendarLogic.m"; sourceTree = "<group>"; };
+		175776311DAE54750087E0FB /* WZCCalendarDayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZCCalendarDayCell.h; sourceTree = "<group>"; };
+		175776321DAE54750087E0FB /* WZCCalendarDayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZCCalendarDayCell.m; sourceTree = "<group>"; };
+		175776351DAE54C00087E0FB /* WZCCalendarDayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZCCalendarDayModel.h; sourceTree = "<group>"; };
+		175776361DAE54C00087E0FB /* WZCCalendarDayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZCCalendarDayModel.m; sourceTree = "<group>"; };
+		175776391DAE55140087E0FB /* WZCCalendarLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZCCalendarLogic.h; sourceTree = "<group>"; };
+		1757763A1DAE55140087E0FB /* WZCCalendarLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZCCalendarLogic.m; sourceTree = "<group>"; };
+		1757763D1DAE55720087E0FB /* WZCCalendarMonthCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZCCalendarMonthCollectionViewLayout.h; sourceTree = "<group>"; };
+		1757763E1DAE55720087E0FB /* WZCCalendarMonthCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZCCalendarMonthCollectionViewLayout.m; sourceTree = "<group>"; };
+		175776411DAE55A60087E0FB /* WZCCalendarMonthHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZCCalendarMonthHeaderView.h; sourceTree = "<group>"; };
+		175776421DAE55A60087E0FB /* WZCCalendarMonthHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZCCalendarMonthHeaderView.m; sourceTree = "<group>"; };
+		175776451DAE56230087E0FB /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		175776461DAE56A90087E0FB /* WZCMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZCMainViewController.h; sourceTree = "<group>"; };
+		175776471DAE56A90087E0FB /* WZCMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZCMainViewController.m; sourceTree = "<group>"; };
+		1757764A1DAE57370087E0FB /* StartAndEndViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartAndEndViewController.h; sourceTree = "<group>"; };
+		1757764B1DAE57370087E0FB /* StartAndEndViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartAndEndViewController.m; sourceTree = "<group>"; };
+		1757764E1DAE57910087E0FB /* NoUseDateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoUseDateViewController.h; sourceTree = "<group>"; };
+		1757764F1DAE57910087E0FB /* NoUseDateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoUseDateViewController.m; sourceTree = "<group>"; };
+		175776531DAE58140087E0FB /* CustomViewAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewAnimation.h; sourceTree = "<group>"; };
+		175776541DAE58140087E0FB /* CustomViewAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewAnimation.m; sourceTree = "<group>"; };
+		175776551DAE58140087E0FB /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
+		175776561DAE58140087E0FB /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
+		175776571DAE58140087E0FB /* MBProgressHUD+XZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+XZ.h"; sourceTree = "<group>"; };
+		175776581DAE58140087E0FB /* MBProgressHUD+XZ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+XZ.m"; sourceTree = "<group>"; };
+		175776591DAE58140087E0FB /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		1757765A1DAE58140087E0FB /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		1757765B1DAE58140087E0FB /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		1757765C1DAE58140087E0FB /* ShowHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowHUD.h; sourceTree = "<group>"; };
+		1757765D1DAE58140087E0FB /* ShowHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowHUD.m; sourceTree = "<group>"; };
+		1757766A1DAE5A750087E0FB /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		1757766B1DAE5A750087E0FB /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		175775EC1DAE53170087E0FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		175776051DAE53170087E0FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		175776101DAE53170087E0FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		175775E61DAE53170087E0FB = {
+			isa = PBXGroup;
+			children = (
+				175775F11DAE53170087E0FB /* QuNaErCalendar(去哪儿日历) */,
+				1757760B1DAE53170087E0FB /* QuNaErCalendar(去哪儿日历)Tests */,
+				175776161DAE53170087E0FB /* QuNaErCalendar(去哪儿日历)UITests */,
+				175775F01DAE53170087E0FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		175775F01DAE53170087E0FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				175775EF1DAE53170087E0FB /* QuNaErCalendar(去哪儿日历).app */,
+				175776081DAE53170087E0FB /* QuNaErCalendar(去哪儿日历)Tests.xctest */,
+				175776131DAE53170087E0FB /* QuNaErCalendar(去哪儿日历)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		175775F11DAE53170087E0FB /* QuNaErCalendar(去哪儿日历) */ = {
+			isa = PBXGroup;
+			children = (
+				1757766A1DAE5A750087E0FB /* UIViewExt.h */,
+				1757766B1DAE5A750087E0FB /* UIViewExt.m */,
+				175776521DAE58140087E0FB /* MBProgressHUD */,
+				175776261DAE53430087E0FB /* WZCCalendar */,
+				175775F51DAE53170087E0FB /* AppDelegate.h */,
+				175775F61DAE53170087E0FB /* AppDelegate.m */,
+				175776461DAE56A90087E0FB /* WZCMainViewController.h */,
+				175776471DAE56A90087E0FB /* WZCMainViewController.m */,
+				1757764A1DAE57370087E0FB /* StartAndEndViewController.h */,
+				1757764B1DAE57370087E0FB /* StartAndEndViewController.m */,
+				1757764E1DAE57910087E0FB /* NoUseDateViewController.h */,
+				1757764F1DAE57910087E0FB /* NoUseDateViewController.m */,
+				175775FB1DAE53170087E0FB /* Main.storyboard */,
+				175775FE1DAE53170087E0FB /* Assets.xcassets */,
+				175776001DAE53170087E0FB /* LaunchScreen.storyboard */,
+				175776031DAE53170087E0FB /* Info.plist */,
+				175775F21DAE53170087E0FB /* Supporting Files */,
+			);
+			path = "QuNaErCalendar(去哪儿日历)";
+			sourceTree = "<group>";
+		};
+		175775F21DAE53170087E0FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				175775F31DAE53170087E0FB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1757760B1DAE53170087E0FB /* QuNaErCalendar(去哪儿日历)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1757760C1DAE53170087E0FB /* QuNaErCalendar_______Tests.m */,
+				1757760E1DAE53170087E0FB /* Info.plist */,
+			);
+			path = "QuNaErCalendar(去哪儿日历)Tests";
+			sourceTree = "<group>";
+		};
+		175776161DAE53170087E0FB /* QuNaErCalendar(去哪儿日历)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				175776171DAE53170087E0FB /* QuNaErCalendar_______UITests.m */,
+				175776191DAE53170087E0FB /* Info.plist */,
+			);
+			path = "QuNaErCalendar(去哪儿日历)UITests";
+			sourceTree = "<group>";
+		};
+		175776261DAE53430087E0FB /* WZCCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				175776271DAE53530087E0FB /* chack1.png */,
+				175776281DAE53530087E0FB /* chack2.png */,
+				1757762D1DAE536B0087E0FB /* NSDate+WZCCalendarLogic.h */,
+				1757762E1DAE536B0087E0FB /* NSDate+WZCCalendarLogic.m */,
+				175776311DAE54750087E0FB /* WZCCalendarDayCell.h */,
+				175776321DAE54750087E0FB /* WZCCalendarDayCell.m */,
+				175776351DAE54C00087E0FB /* WZCCalendarDayModel.h */,
+				175776361DAE54C00087E0FB /* WZCCalendarDayModel.m */,
+				175776391DAE55140087E0FB /* WZCCalendarLogic.h */,
+				1757763A1DAE55140087E0FB /* WZCCalendarLogic.m */,
+				1757763D1DAE55720087E0FB /* WZCCalendarMonthCollectionViewLayout.h */,
+				1757763E1DAE55720087E0FB /* WZCCalendarMonthCollectionViewLayout.m */,
+				175776411DAE55A60087E0FB /* WZCCalendarMonthHeaderView.h */,
+				175776421DAE55A60087E0FB /* WZCCalendarMonthHeaderView.m */,
+				175776451DAE56230087E0FB /* Color.h */,
+			);
+			path = WZCCalendar;
+			sourceTree = "<group>";
+		};
+		175776521DAE58140087E0FB /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				175776531DAE58140087E0FB /* CustomViewAnimation.h */,
+				175776541DAE58140087E0FB /* CustomViewAnimation.m */,
+				175776551DAE58140087E0FB /* MBProgressHUD+Add.h */,
+				175776561DAE58140087E0FB /* MBProgressHUD+Add.m */,
+				175776571DAE58140087E0FB /* MBProgressHUD+XZ.h */,
+				175776581DAE58140087E0FB /* MBProgressHUD+XZ.m */,
+				175776591DAE58140087E0FB /* MBProgressHUD.bundle */,
+				1757765A1DAE58140087E0FB /* MBProgressHUD.h */,
+				1757765B1DAE58140087E0FB /* MBProgressHUD.m */,
+				1757765C1DAE58140087E0FB /* ShowHUD.h */,
+				1757765D1DAE58140087E0FB /* ShowHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		175775EE1DAE53170087E0FB /* QuNaErCalendar(去哪儿日历) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1757761C1DAE53170087E0FB /* Build configuration list for PBXNativeTarget "QuNaErCalendar(去哪儿日历)" */;
+			buildPhases = (
+				175775EB1DAE53170087E0FB /* Sources */,
+				175775EC1DAE53170087E0FB /* Frameworks */,
+				175775ED1DAE53170087E0FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QuNaErCalendar(去哪儿日历)";
+			productName = "QuNaErCalendar(去哪儿日历)";
+			productReference = 175775EF1DAE53170087E0FB /* QuNaErCalendar(去哪儿日历).app */;
+			productType = "com.apple.product-type.application";
+		};
+		175776071DAE53170087E0FB /* QuNaErCalendar(去哪儿日历)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1757761F1DAE53170087E0FB /* Build configuration list for PBXNativeTarget "QuNaErCalendar(去哪儿日历)Tests" */;
+			buildPhases = (
+				175776041DAE53170087E0FB /* Sources */,
+				175776051DAE53170087E0FB /* Frameworks */,
+				175776061DAE53170087E0FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1757760A1DAE53170087E0FB /* PBXTargetDependency */,
+			);
+			name = "QuNaErCalendar(去哪儿日历)Tests";
+			productName = "QuNaErCalendar(去哪儿日历)Tests";
+			productReference = 175776081DAE53170087E0FB /* QuNaErCalendar(去哪儿日历)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		175776121DAE53170087E0FB /* QuNaErCalendar(去哪儿日历)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 175776221DAE53170087E0FB /* Build configuration list for PBXNativeTarget "QuNaErCalendar(去哪儿日历)UITests" */;
+			buildPhases = (
+				1757760F1DAE53170087E0FB /* Sources */,
+				175776101DAE53170087E0FB /* Frameworks */,
+				175776111DAE53170087E0FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				175776151DAE53170087E0FB /* PBXTargetDependency */,
+			);
+			name = "QuNaErCalendar(去哪儿日历)UITests";
+			productName = "QuNaErCalendar(去哪儿日历)UITests";
+			productReference = 175776131DAE53170087E0FB /* QuNaErCalendar(去哪儿日历)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		175775E71DAE53170087E0FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = WZC;
+				TargetAttributes = {
+					175775EE1DAE53170087E0FB = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					175776071DAE53170087E0FB = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 175775EE1DAE53170087E0FB;
+					};
+					175776121DAE53170087E0FB = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 175775EE1DAE53170087E0FB;
+					};
+				};
+			};
+			buildConfigurationList = 175775EA1DAE53170087E0FB /* Build configuration list for PBXProject "QuNaErCalendar(去哪儿日历)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 175775E61DAE53170087E0FB;
+			productRefGroup = 175775F01DAE53170087E0FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				175775EE1DAE53170087E0FB /* QuNaErCalendar(去哪儿日历) */,
+				175776071DAE53170087E0FB /* QuNaErCalendar(去哪儿日历)Tests */,
+				175776121DAE53170087E0FB /* QuNaErCalendar(去哪儿日历)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		175775ED1DAE53170087E0FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1757762B1DAE53530087E0FB /* chack2.png in Resources */,
+				175776291DAE53530087E0FB /* chack1.png in Resources */,
+				175776021DAE53170087E0FB /* LaunchScreen.storyboard in Resources */,
+				175775FF1DAE53170087E0FB /* Assets.xcassets in Resources */,
+				175775FD1DAE53170087E0FB /* Main.storyboard in Resources */,
+				175776641DAE58140087E0FB /* MBProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		175776061DAE53170087E0FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1757762A1DAE53530087E0FB /* chack1.png in Resources */,
+				1757762C1DAE53530087E0FB /* chack2.png in Resources */,
+				175776651DAE58140087E0FB /* MBProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		175776111DAE53170087E0FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		175775EB1DAE53170087E0FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				175776501DAE57910087E0FB /* NoUseDateViewController.m in Sources */,
+				175776371DAE54C00087E0FB /* WZCCalendarDayModel.m in Sources */,
+				1757765E1DAE58140087E0FB /* CustomViewAnimation.m in Sources */,
+				1757763F1DAE55720087E0FB /* WZCCalendarMonthCollectionViewLayout.m in Sources */,
+				1757763B1DAE55140087E0FB /* WZCCalendarLogic.m in Sources */,
+				175776621DAE58140087E0FB /* MBProgressHUD+XZ.m in Sources */,
+				175776681DAE58140087E0FB /* ShowHUD.m in Sources */,
+				175775F71DAE53170087E0FB /* AppDelegate.m in Sources */,
+				175776661DAE58140087E0FB /* MBProgressHUD.m in Sources */,
+				1757762F1DAE536B0087E0FB /* NSDate+WZCCalendarLogic.m in Sources */,
+				175776601DAE58140087E0FB /* MBProgressHUD+Add.m in Sources */,
+				1757764C1DAE57370087E0FB /* StartAndEndViewController.m in Sources */,
+				175776331DAE54750087E0FB /* WZCCalendarDayCell.m in Sources */,
+				175775F41DAE53170087E0FB /* main.m in Sources */,
+				175776481DAE56A90087E0FB /* WZCMainViewController.m in Sources */,
+				175776431DAE55A60087E0FB /* WZCCalendarMonthHeaderView.m in Sources */,
+				1757766C1DAE5A750087E0FB /* UIViewExt.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		175776041DAE53170087E0FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1757766D1DAE5A750087E0FB /* UIViewExt.m in Sources */,
+				175776401DAE55720087E0FB /* WZCCalendarMonthCollectionViewLayout.m in Sources */,
+				1757765F1DAE58140087E0FB /* CustomViewAnimation.m in Sources */,
+				175776341DAE54750087E0FB /* WZCCalendarDayCell.m in Sources */,
+				175776491DAE56A90087E0FB /* WZCMainViewController.m in Sources */,
+				1757763C1DAE55140087E0FB /* WZCCalendarLogic.m in Sources */,
+				175776631DAE58140087E0FB /* MBProgressHUD+XZ.m in Sources */,
+				175776381DAE54C00087E0FB /* WZCCalendarDayModel.m in Sources */,
+				175776511DAE57910087E0FB /* NoUseDateViewController.m in Sources */,
+				175776611DAE58140087E0FB /* MBProgressHUD+Add.m in Sources */,
+				175776301DAE536B0087E0FB /* NSDate+WZCCalendarLogic.m in Sources */,
+				1757764D1DAE57370087E0FB /* StartAndEndViewController.m in Sources */,
+				175776441DAE55A60087E0FB /* WZCCalendarMonthHeaderView.m in Sources */,
+				1757760D1DAE53170087E0FB /* QuNaErCalendar_______Tests.m in Sources */,
+				175776671DAE58140087E0FB /* MBProgressHUD.m in Sources */,
+				175776691DAE58140087E0FB /* ShowHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1757760F1DAE53170087E0FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				175776181DAE53170087E0FB /* QuNaErCalendar_______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1757760A1DAE53170087E0FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 175775EE1DAE53170087E0FB /* QuNaErCalendar(去哪儿日历) */;
+			targetProxy = 175776091DAE53170087E0FB /* PBXContainerItemProxy */;
+		};
+		175776151DAE53170087E0FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 175775EE1DAE53170087E0FB /* QuNaErCalendar(去哪儿日历) */;
+			targetProxy = 175776141DAE53170087E0FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		175775FB1DAE53170087E0FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				175775FC1DAE53170087E0FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		175776001DAE53170087E0FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				175776011DAE53170087E0FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1757761A1DAE53170087E0FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1757761B1DAE53170087E0FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1757761D1DAE53170087E0FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "QuNaErCalendar(去哪儿日历)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weizhi.QuNaErCalendar-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1757761E1DAE53170087E0FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "QuNaErCalendar(去哪儿日历)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weizhi.QuNaErCalendar-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		175776201DAE53170087E0FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "QuNaErCalendar(去哪儿日历)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weizhi.QuNaErCalendar-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuNaErCalendar(去哪儿日历).app/QuNaErCalendar(去哪儿日历)";
+			};
+			name = Debug;
+		};
+		175776211DAE53170087E0FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "QuNaErCalendar(去哪儿日历)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weizhi.QuNaErCalendar-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuNaErCalendar(去哪儿日历).app/QuNaErCalendar(去哪儿日历)";
+			};
+			name = Release;
+		};
+		175776231DAE53170087E0FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "QuNaErCalendar(去哪儿日历)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weizhi.QuNaErCalendar-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "QuNaErCalendar(去哪儿日历)";
+			};
+			name = Debug;
+		};
+		175776241DAE53170087E0FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "QuNaErCalendar(去哪儿日历)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weizhi.QuNaErCalendar-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "QuNaErCalendar(去哪儿日历)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		175775EA1DAE53170087E0FB /* Build configuration list for PBXProject "QuNaErCalendar(去哪儿日历)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1757761A1DAE53170087E0FB /* Debug */,
+				1757761B1DAE53170087E0FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1757761C1DAE53170087E0FB /* Build configuration list for PBXNativeTarget "QuNaErCalendar(去哪儿日历)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1757761D1DAE53170087E0FB /* Debug */,
+				1757761E1DAE53170087E0FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1757761F1DAE53170087E0FB /* Build configuration list for PBXNativeTarget "QuNaErCalendar(去哪儿日历)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				175776201DAE53170087E0FB /* Debug */,
+				175776211DAE53170087E0FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		175776221DAE53170087E0FB /* Build configuration list for PBXNativeTarget "QuNaErCalendar(去哪儿日历)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				175776231DAE53170087E0FB /* Debug */,
+				175776241DAE53170087E0FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 175775E71DAE53170087E0FB /* Project object */;
+}
